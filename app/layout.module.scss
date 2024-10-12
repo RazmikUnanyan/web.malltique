@@ -1,0 +1,55 @@
+@use "@/styles/abstracts" as *;
+@use "@/styles/mixins" as *;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax($mobile, $desktop) 1fr;
+  grid-auto-rows: 150px auto 300px;
+  grid-template-areas:
+		"header header header"
+		". main ."
+		". footer .";
+  min-height: 100vh;
+
+  @media (max-width: $ipad) {
+    grid-auto-rows: 150px auto 200px;
+  }
+}
+
+.header {
+  grid-area: header;
+  background-color: white;
+}
+
+.main {
+  grid-area: main;
+  padding: 1rem;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 1rem;
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.footerMobile {
+  display: none;
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+
+    @media (max-width: $mobile) {
+        @include flex-space-around-center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.content {
+  margin: 0 auto;
+  width: min($desktop, 100%);
+}

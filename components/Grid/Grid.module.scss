@@ -1,0 +1,21 @@
+@use "@/styles/abstracts/index" as *;
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0;
+
+  @media (max-width: $ipad) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8rem;
+    margin: 0.8rem 0;
+  }
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+}
+

@@ -1,0 +1,23 @@
+@use "@/styles/abstracts" as *;
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  @media (max-width: $ipad) {
+    font-size: $fs-secondary;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: $fs-mobile;
+  }
+}
+
+.secondary {
+  color: black;
+}
+
+.primary {
+  color: $cl-pink;
+}
