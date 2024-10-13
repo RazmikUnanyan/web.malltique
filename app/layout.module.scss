@@ -29,6 +29,7 @@
 .footer {
   grid-area: footer;
   padding: 1rem;
+  position: fixed;
 
   @media (max-width: $mobile) {
     display: none;
