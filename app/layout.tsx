@@ -9,8 +9,8 @@ import styles from './layout.module.scss';
 import { Footer, FooterMob } from '@/components';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  title: 'Malltique',
+  description: 'Malltique',
 };
 
 export default function RootLayout({ children }: { children: any }) {
