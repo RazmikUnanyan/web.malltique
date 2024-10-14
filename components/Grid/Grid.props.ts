@@ -1,7 +1,6 @@
-import { PaperProps } from '@mantine/core';
-import { ReactNode } from 'react';
+import {DetailedHTMLProps, HTMLAttributes, ReactNode} from 'react';
 
-export interface IProductGridProps extends PaperProps {
+export interface IProductGridProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
     title?: string;
     buttonTitle?: string;
     onClick?: () => void;

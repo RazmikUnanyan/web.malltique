@@ -1,0 +1,12 @@
+@use "@/styles/abstracts" as *;
+@use "@/styles/mixins" as *;
+
+.container {
+  @include flex-space-between-center;
+  height: 100%;
+}
+
+.links {
+  @include flex-space-around-center;
+  gap: 1rem;
+}

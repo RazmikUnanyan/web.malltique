@@ -6,9 +6,9 @@ export const AD_IMAGES = [
 ];
 
 export const BANNER_IMG = [
-  'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/running_fw24_ub5_global_sustain_blog_size_guide_masthead_primary_d_5e765f8511.jpg',
-  'https://www.shinysports.com/gallery/wide-banner-women_s-adidas-new-arrivals_8a16d25f-eaae-4c59-84df-04e67eede149-jpg.53536/full',
-  'https://img.freepik.com/premium-photo/nike-shoe-is-pink-background-with-nike-logo_910054-71195.jpg',
+  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww2150_q80/cbae0485-772e-11ef-9ba2-fe94ab6be75b.jpeg',
+  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww2150_q80/d8c33abb-7b27-11ef-a95f-0a513b09dee9.jpeg',
+  'https://static-basket-01.wbbasket.ru/vol1/crm-bnrs/bners1/2880_prizy.webp',
 ];
 
 export const SELL_IMG = [

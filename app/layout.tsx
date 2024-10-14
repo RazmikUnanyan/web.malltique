@@ -6,7 +6,7 @@ import React from 'react';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/styles/theme';
 import styles from './layout.module.scss';
-import { Footer, FooterMob } from '@/components';
+import { Footer, FooterMobile, Header } from '@/components';
 
 export const metadata = {
   title: 'Malltique',
@@ -30,12 +30,12 @@ export default function RootLayout({ children }: { children: any }) {
           <div className={styles.wrapper}>
               <header className={styles.header}>
                   <div className={styles.content}>
-                      header
+                      <Header />
                   </div>
               </header>
               <main className={styles.main}>{children}</main>
               <Footer className={styles.footer} />
-              <FooterMob className={styles.footerMobile} />
+              <FooterMobile className={styles.footerMobile} />
           </div>
       </MantineProvider>
       </body>

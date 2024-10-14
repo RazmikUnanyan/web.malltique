@@ -1,13 +1,13 @@
 @use "@/styles/abstracts" as *;
 
 .container {
-  margin: 2rem auto;
+  margin: 0.3rem 0;
   width: 100%;
   position: relative;
   display: grid;
   grid-template-columns: auto auto;
-  background-color: $cl-brown_light;
-  border-radius: $box-radius;
+  background-color: $cl-white;
+  border-radius: 0 0 $box-radius $box-radius;
   padding: 2rem;
   gap: 1rem;
 }

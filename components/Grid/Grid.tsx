@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Badge, Group, Paper, Text } from '@mantine/core';
+import { Badge, Group, Text } from '@mantine/core';
 import styles from './Grid.module.scss';
 import { IProductGridProps } from './Grid.props';
 
@@ -10,7 +10,7 @@ export const Grid: FC<IProductGridProps> = ({
   children,
   ...props
 }) => (
-  <Paper p="lg" radius="lg" mt="md" variant="outlined" {...props}>
+  <div className={styles.container} {...props}>
     {title && (
       <Group justify="space-between" mt="md" mb="xs">
         {title && (
@@ -26,5 +26,5 @@ export const Grid: FC<IProductGridProps> = ({
       </Group>
     )}
     <div className={styles.grid}>{children}</div>
-  </Paper>
+  </div>
 );

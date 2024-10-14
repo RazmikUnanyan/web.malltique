@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-weight: 500;
 
   @media (max-width: $ipad) {
     font-size: $fs-secondary;
@@ -19,5 +20,5 @@
 }
 
 .primary {
-  color: $cl-pink;
+  color: $cl-date;
 }

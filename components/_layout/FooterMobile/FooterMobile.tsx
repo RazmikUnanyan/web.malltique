@@ -12,7 +12,7 @@ import styles from './footerMob.module.scss';
 import { ALink } from '@/components';
 import { IFooterProps } from './footerMob.props';
 
-export const FooterMob: FC<IFooterProps> = ({ ...props }) => (
+export const FooterMobile: FC<IFooterProps> = ({ ...props }) => (
   <footer className={styles.container} {...props}>
     <ALink variant="secondary" leftSection={<IconTruckDelivery />} href="#" />
     <ALink variant="secondary" leftSection={<IconHeart />} href="#" />

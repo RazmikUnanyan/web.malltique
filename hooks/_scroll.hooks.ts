@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from 'react';
 
 export const useSticky = (height: number) => {
     const [isSticky, setIsSticky] = useState(false);
@@ -25,5 +25,5 @@ export const useSticky = (height: number) => {
         };
     }, []);
 
-    return {isSticky}
-}
+    return { isSticky };
+};

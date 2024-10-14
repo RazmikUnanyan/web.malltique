@@ -31,10 +31,10 @@ export const Banner: FC<IBannerProps> = ({
           sponsored
         </Badge>
       )}
-      <Carousel withIndicators {...autoplayConf} {...props}>
+      <Carousel className={styles.slide} withIndicators {...autoplayConf} {...props}>
         {images.map((url) => (
-          <CarouselSlide className={styles.slide} key={url} h={height}>
-            <Image h={height} radius="lg" src={url} />
+          <CarouselSlide key={url} h={height}>
+            <Image h={height} src={url} />
           </CarouselSlide>
         ))}
       </Carousel>
