@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { IALinkProps } from './aLink.props';
 import styles from './aLink.module.scss';
 
-export const ALink: FC<IALinkProps> = ({ leftSection, href, label, variant }) => (
+export const ALink: FC<IALinkProps> = ({ leftSection, href, label, variant, className }) => (
     <Link
       href={href}
-      className={cn(styles.linkContainer, {
+      className={cn(styles.linkContainer, className, {
         [styles.secondary]: variant === 'secondary',
         [styles.primary]: variant === 'primary',
     })}>

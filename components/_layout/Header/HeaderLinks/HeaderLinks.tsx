@@ -7,7 +7,7 @@ import { ALink } from '@/components';
 
 export const HeaderLinks = () => (
     <div className={styles.container}>
-        <ALink variant="primary" href="#" label="Houston" leftSection={<IconLocation />} />
+        <ALink variant="primary" href="#" label="Houston" leftSection={<IconLocation size={15} />} />
         <div className={styles.links}>
             <ALink
               label="career"

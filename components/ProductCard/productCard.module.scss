@@ -1,4 +1,5 @@
-@use "@/styles/abstracts/index" as *;
+@use "@/styles/abstracts" as *;
+@use "@/styles/mixins" as *;
 
 .container {
   width: 100%;
@@ -9,20 +10,36 @@
   overflow: hidden;
   height: 350px;
   position: relative;
+  padding: 1rem;
 }
 
-.description {
-  height: 50px;
-  padding: 10px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
-  transition: height 0.3s;
+.imgWrapper {
+  height: 200px;
+  position: relative;
 }
 
-.icon {
+.badges {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   position: absolute;
-  top: 0.1rem;
-  right: 0.1rem;
-  z-index: 3;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.like {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.footer {
+  @include flex-space-between-center;
+  margin-top: 1rem;
+}
+
+.prevPrice {
+  display: flex;
+  gap: 1rem;
 }
 

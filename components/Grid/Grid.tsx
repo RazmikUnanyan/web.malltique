@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import cn from 'classnames';
 import { Badge, Group, Text } from '@mantine/core';
 import styles from './Grid.module.scss';
 import { IProductGridProps } from './Grid.props';
@@ -7,6 +8,7 @@ export const Grid: FC<IProductGridProps> = ({
   title,
   onClick,
   buttonTitle,
+  withHorizontalScroll = false,
   children,
   ...props
 }) => (
@@ -25,6 +27,11 @@ export const Grid: FC<IProductGridProps> = ({
         )}
       </Group>
     )}
-    <div className={styles.grid}>{children}</div>
+    <div className={cn({
+      [styles.grid]: !withHorizontalScroll,
+      [styles.gridHorizontalScroll]: withHorizontalScroll,
+    })}>
+        {children}
+    </div>
   </div>
 );

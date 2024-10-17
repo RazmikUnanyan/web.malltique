@@ -15,13 +15,13 @@ export const Header: FC<IHeaderProps> = ({ ...props }) => {
   return (
     <div className={styles.container} {...props}>
       {!isSticky && (
-          <div className={styles.links}>
-              <HeaderLinks />
-          </div>
-      )}
-        <div className={styles.searchBar}>
-            <SearchBar />
+        <div className={styles.links}>
+          <HeaderLinks />
         </div>
+      )}
+      <div className={styles.searchBar}>
+        <SearchBar />
+      </div>
       {!isSticky && (
         <div className={styles.catalog}>
           {CATALOGS.map((category, index) => (

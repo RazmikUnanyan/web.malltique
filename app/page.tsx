@@ -7,14 +7,14 @@ export default function HomePage() {
       <Banner showSponsored isAutoplay images={BANNER_IMG} height={250} />
       <Services />
       <Ad showSponsored banners={AD_IMAGES} />
-      <Grid title="On Sell" buttonTitle="All">
+      <Grid title="On Sell" buttonTitle="All" withHorizontalScroll>
         {SELL_IMG.map((sell) => (
           <SellCard key={sell} imgUrl={sell} />
         ))}
       </Grid>
       <Grid>
-        {[...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT].map((product, index) => (
-          <ProductCard key={index} imgUrl={product} />
+        {[...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT, ...PRODUCT].map((product, index) => (
+          <ProductCard key={index} {...product} />
         ))}
       </Grid>
     </>

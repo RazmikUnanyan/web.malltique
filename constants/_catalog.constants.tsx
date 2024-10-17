@@ -5,6 +5,7 @@ import {
     IconComet,
     IconDeviceLaptop, IconGardenCart,
     IconRosetteDiscount,
+    IconHanger2,
 } from '@tabler/icons-react';
 import React from 'react';
 
@@ -26,7 +27,7 @@ export const CATALOGS = [
     },
     {
         label: 'clothes and shoes',
-        icon: <IconComet size={15} />,
+        icon: <IconHanger2 size={15} />,
         href: '/category',
     },
     {

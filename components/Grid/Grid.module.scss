@@ -19,6 +19,28 @@
   }
 }
 
+.gridHorizontalScroll {
+  display: grid;
+  grid-template-columns:  repeat(5, 1fr);
+  grid-auto-flow:column;
+  overflow: scroll;
+  gap: 1.5rem;
+  margin: 0.3rem 0;
+  width: 98%;
+
+  @media (max-width: $ipad) {
+    gap: 0.8rem;
+    margin: 0.8rem 0;
+    grid-template-rows: 1fr;
+  }
+
+  @media (max-width: $mobile) {
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    grid-template-rows: 1fr;
+  }
+}
+
 .container {
   background-color: $cl-white;
   padding: 2rem;

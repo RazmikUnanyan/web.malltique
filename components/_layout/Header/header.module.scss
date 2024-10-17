@@ -10,6 +10,10 @@
 .links {
   height: 40px;
   transition: height .2s;
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 
 .searchBar {
@@ -22,6 +26,10 @@
   display: flex;
   justify-content: right;
   gap: 2rem;
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 
 

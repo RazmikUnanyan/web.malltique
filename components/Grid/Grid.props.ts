@@ -4,5 +4,6 @@ export interface IProductGridProps extends DetailedHTMLProps<HTMLAttributes<HTML
     title?: string;
     buttonTitle?: string;
     onClick?: () => void;
+    withHorizontalScroll?: boolean;
     children: ReactNode;
 }

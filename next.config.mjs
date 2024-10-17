@@ -5,7 +5,8 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 export default withBundleAnalyzer({
-  reactStrictMode: false,
+  output: "export", // для использования gh-pages, удалить после перехода от gh-pages
+  reactStrictMode: true, // для использования gh-pages, поменять на false после перехода от gh-pages
   eslint: {
     ignoreDuringBuilds: true,
   },
