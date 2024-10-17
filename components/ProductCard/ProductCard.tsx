@@ -1,14 +1,13 @@
 'use client';
 
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 import { IconHeart, IconMessage, IconShoppingCart, IconThumbUp } from '@tabler/icons-react';
-import { Badge, Button, Group, Image, Rating, Text } from '@mantine/core';
+import { Badge, Group, Image, Rating, Text } from '@mantine/core';
 import styles from './productCard.module.scss';
 import { ALink } from '@/components';
 import { ISellCardProps } from './productCard.props';
 
 export const ProductCard: FC<ISellCardProps> = ({ imgUrl, isNew, isGoodPrice, percent, name, rating, prevPrice, price }) => {
-  const [isSelected, setIsSelceted] = useState(false);
 
   return (
     <div className={styles.container}>

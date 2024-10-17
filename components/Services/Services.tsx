@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {IconCashBanknote, IconPhone, IconShieldLock, IconTruckDelivery} from '@tabler/icons-react';
+import { IconCashBanknote, IconPhone, IconShieldLock, IconTruckDelivery } from '@tabler/icons-react';
 import { Text } from '@mantine/core';
 import styles from './services.module.scss';
 

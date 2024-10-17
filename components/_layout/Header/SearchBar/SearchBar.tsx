@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './searchBar.module.scss';
 import {
   IconBasket,
   IconCategory2,
@@ -8,6 +7,7 @@ import {
   IconTruckDelivery,
   IconUserCircle,
 } from '@tabler/icons-react';
+import styles from './searchBar.module.scss';
 import { ALink, Input } from '@/components/_ui';
 import W from './logo.png';
 
