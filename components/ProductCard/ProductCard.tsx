@@ -7,9 +7,7 @@ import styles from './productCard.module.scss';
 import { ALink } from '@/components';
 import { ISellCardProps } from './productCard.props';
 
-export const ProductCard: FC<ISellCardProps> = ({ imgUrl, isNew, isGoodPrice, percent, name, rating, prevPrice, price }) => {
-
-  return (
+export const ProductCard: FC<ISellCardProps> = ({ imgUrl, isNew, isGoodPrice, percent, name, rating, prevPrice, price }) => (
     <div className={styles.container}>
         <div className={styles.imgWrapper}>
             <Image src={imgUrl} h={200} radius="md" />
@@ -48,4 +46,3 @@ export const ProductCard: FC<ISellCardProps> = ({ imgUrl, isNew, isGoodPrice, pe
       </div>
     </div>
   );
-};
