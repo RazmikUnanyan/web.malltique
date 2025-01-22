@@ -9,7 +9,7 @@
   border-radius: $box-radius;
   overflow: hidden;
   position: relative;
-  padding: 1rem;
+  padding: 0;
 
   @media (max-width: $ipad) {
     height: 200px;
@@ -41,12 +41,14 @@
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
+  z-index: 1;
 }
 
 .like {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+  z-index: 1;
 }
 
 .price {
@@ -59,6 +61,7 @@
   border-radius: $box-radius;
   color: $cl-white;
   background-color: $cl-text;
+  z-index: 1;
 }
 
 .buttonBuy {
