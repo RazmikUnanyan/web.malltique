@@ -4,6 +4,7 @@
 
 .container {
   @include flex-column;
+  z-index: 99;
   gap: 2rem;
 }
 

@@ -11,7 +11,7 @@
   height: 40px;
   transition: height .2s;
 
-  @media (max-width: $mobile) {
+  @media (max-width: $ipad) {
     display: none;
   }
 }
@@ -27,7 +27,7 @@
   justify-content: right;
   gap: 2rem;
 
-  @media (max-width: $mobile) {
+  @media (max-width: $ipad) {
     display: none;
   }
 }

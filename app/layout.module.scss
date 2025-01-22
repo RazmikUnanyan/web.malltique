@@ -37,7 +37,7 @@
   grid-area: footer;
   padding: 1rem;
 
-  @media (max-width: $mobile) {
+  @media (max-width: $ipad) {
     display: none;
   }
 }
@@ -48,7 +48,7 @@
   width: 100%;
   padding: 1rem;
 
-    @media (max-width: $mobile) {
+    @media (max-width: $ipad) {
         @include flex-space-around-center;
         position: fixed;
         bottom: 0;

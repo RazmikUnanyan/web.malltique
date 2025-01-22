@@ -10,6 +10,11 @@
   overflow: hidden;
   position: relative;
   padding: 1rem;
+
+  @media (max-width: $ipad) {
+    height: 200px;
+    padding: 0.1rem;
+  }
 }
 
 .name {
@@ -22,6 +27,11 @@
 .imgWrapper {
   height: 250px;
   position: relative;
+
+  @media (max-width: $ipad) {
+    height: 200px;
+    padding: 0.1rem;
+  }
 }
 
 .badges {
@@ -31,14 +41,12 @@
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  z-index: 4;
 }
 
 .like {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  z-index: 4;
 }
 
 .price {
@@ -51,7 +59,6 @@
   border-radius: $box-radius;
   color: $cl-white;
   background-color: $cl-text;
-  z-index: 4;
 }
 
 .buttonBuy {

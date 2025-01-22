@@ -7,15 +7,15 @@
   margin: 0.3rem 0;
 
   @media (max-width: $ipad) {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.8rem;
-    margin: 0.8rem 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0.3rem 0;
   }
 
   @media (max-width: $mobile) {
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
-    margin: 0.5rem 0;
+    gap: 0;
+    margin: 0.2rem 0;
   }
 }
 
@@ -48,5 +48,15 @@
   padding: 2rem;
   margin: 0.3rem 0;
   border-radius: $box-radius;
+
+  @media (max-width: $ipad) {
+    padding: 1rem;
+    margin: 0.1rem 0;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 0.5rem;
+    margin: 0.1rem 0;
+  }
 }
 
