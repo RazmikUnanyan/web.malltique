@@ -7,3 +7,4 @@ export * from './_layout';
 export * from './SellCard/SellCard';
 export * from './ProductCard/ProductCard';
 export * from './Services/Services';
+export * from './Slider/Slider';

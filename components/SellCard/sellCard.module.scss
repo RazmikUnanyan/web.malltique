@@ -7,20 +7,25 @@
   width: 200px;
   border-radius: $box-radius-primary;
   overflow: hidden;
-  height: 200px;
+  height: 150px;
   cursor: pointer;
-  transition: background-color .2s;
+  position: relative;
+  background-color: $cl-body;
 }
 
-.container:hover {
-  background-color: $cl-brown_light;
+.name {
+  position: absolute;
+  background-color: $cl-white;
+  padding: 0.5rem;
+  border-radius: $box-radius-primary 0 0.5rem 0 ;
+  top: 0;
+  left: 0;
+  height: 40px;
+  transition: height 0.2s;
 }
 
-.description {
-  height: 100px;
-  padding: 10px;
+.container:hover  .name {
   width: 100%;
-  z-index: 5;
-  transition: height 0.3s;
+  height: 100%;
 }
 

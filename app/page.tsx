@@ -7,9 +7,9 @@ export default function HomePage() {
       <Banner showSponsored isAutoplay images={BANNER_IMG} height={250} />
       <Services />
       <Ad showSponsored banners={AD_IMAGES} />
-      <Grid title="On Sell" buttonTitle="All" withHorizontalScroll>
+      <Grid withHorizontalScroll>
         {SELL_IMG.map((sell) => (
-          <SellCard key={sell} imgUrl={sell} />
+          <SellCard key={sell.id} {...sell} />
         ))}
       </Grid>
       <Grid>

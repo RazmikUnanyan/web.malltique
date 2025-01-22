@@ -19,7 +19,7 @@
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@mantine/carousel": "^7.13.2",

@@ -7,15 +7,16 @@ import {
   IconTruckDelivery,
   IconUserCircle,
 } from '@tabler/icons-react';
+import Link from 'next/link';
 import styles from './searchBar.module.scss';
 import { ALink, Input } from '@/components/_ui';
 import W from './logo.png';
 
 export const SearchBar = () => (
   <div className={styles.container}>
-    <div className={styles.search_content_catalog}>
+    <Link className={styles.search_content_catalog} href="/">
       <Image className={styles.logo} src={W} width={200} height={200} alt="logo" />
-    </div>
+    </Link>
     <div className={styles.search}>
       <Input
         leftSection={
@@ -47,7 +48,7 @@ export const SearchBar = () => (
         label=""
         variant="secondary"
         leftSection={<IconUserCircle size={30} stroke={1.5} />}
-        href="#"
+        href="/profile"
       />
     </div>
   </div>

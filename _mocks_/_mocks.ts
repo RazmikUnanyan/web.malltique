@@ -12,33 +12,58 @@ export const BANNER_IMG = [
 ];
 
 export const SELL_IMG = [
-  'https://ir.ozone.ru/s3/cms/8d/tdb/wc600/mixit_672_440.jpg',
-  'https://ir.ozone.ru/s3/cms/69/t42/wc600/tk_15_1_672440_4_1.jpeg',
-  'https://ir.ozone.ru/s3/cms/69/t42/wc600/tk_15_1_672440_4_1.jpeg',
-  'https://ir.ozone.ru/s3/cms/69/t42/wc600/tk_15_1_672440_4_1.jpeg',
-  'https://ir.ozone.ru/s3/cms/69/t42/wc600/tk_15_1_672440_4_1.jpeg',
-  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww700_q80/941789f6-fc8a-11ee-8f1b-fe6b2656878f.jpeg',
-  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww700_q80/ed9b3547-8b16-11ef-aff7-264c9be0b73a.jpeg',
-  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww700_q80/ed9b3547-8b16-11ef-aff7-264c9be0b73a.jpeg',
-  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww700_q80/ed9b3547-8b16-11ef-aff7-264c9be0b73a.jpeg',
-  'https://cdn1.ozonusercontent.com/s3/sellerassets/ww700_q80/9be42a97-86fc-11ef-a3f0-9a5b30e2e4c7.jpeg',
+  {
+    id: '1',
+    imgUrl: 'https://m.media-amazon.com/images/I/81A3zqD+a8L._AC_UL640_FMwebp_QL65_.jpg',
+    name: 'house and garden',
+  },
+  {
+    id: '2',
+    imgUrl: 'https://m.media-amazon.com/images/I/71fHWtze92L._AC_UL640_FMwebp_QL65_.jpg',
+    name: 'clothes and shoes',
+  },
+  {
+    id: '3',
+    imgUrl: 'https://content2.flowwow-images.com/data/assortment/range_groups/icons/1670092115_29852018.png',
+    name: 'gift card',
+  },
+  {
+    id: '4',
+    imgUrl: 'https://images-na.ssl-images-amazon.com/images/I/71Ha3OShqSL._AC_UL381_SR381,381_.jpg',
+    name: 'books',
+  },
+  {
+    id: '5',
+    imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTui7A8E7wChLlpU5zeJAr6smWLxoY9Kfcn-w&s',
+    name: 'electronics',
+  },
+  {
+    id: '6',
+    imgUrl: 'https://m.media-amazon.com/images/I/7138FmFOoWL._AC_UL640_FMwebp_QL65_.jpg',
+    name: 'for children',
+  },
+  {
+    id: '7',
+    imgUrl: 'https://m.media-amazon.com/images/I/61e5CdQvLIL._AC_UL640_FMwebp_QL65_.jpg',
+    name: 'sports',
+  },
 ];
 
 export const PRODUCT = [
   {
     id: '1',
-    name: "De'Longhi",
+    name: "De'Longhi An array of strings – used when value and label are the same",
     rating: 5,
     price: '100$',
     prevPrice: '134$',
     percent: '22%',
-    imgUrl: 'https://m.media-amazon.com/images/I/712DosOUFqL._AC_UL320_.jpg',
+    imgUrl: 'https://stockmann.ru/istk/wo6RkrxfoLEKPLsSn08y9eC1wwKD65s6uvpT9a4tqYY/rs:fill:708:1119:0/g:no/bG9jYWw6Ly8vdXBsb2FkLy9jbXMvc3RhdGljL2RhdGFfcGljdHVyZXMvRk9WbDNkQWxXMjlYejBhWlcxTTdZV1RrNkd0V1RIZVVZRnlhajVPYS5wbmc.jpg',
     isNew: false,
     isGoodPrice: true,
   },
   {
     id: '2',
-    name: 'HyperX Alloy Origins',
+    name: 'HyperX Alloy Origins An array of strings – used when value and label are the same',
     rating: 3,
     price: '12$',
     prevPrice: '34$',
@@ -50,7 +75,7 @@ export const PRODUCT = [
 
   {
     id: '3',
-    name: '4 Tier Plastic Storage',
+    name: '4 Tier Plastic Storage An array of strings – used when value and label are the same',
     rating: 5,
     price: '40$',
     prevPrice: '60$',
@@ -77,7 +102,7 @@ export const PRODUCT = [
     price: '$20.78',
     prevPrice: '60$',
     percent: '10%',
-    imgUrl: 'https://ir.ozone.ru/s3/multimedia-w/wc1000/6735408044.jpg',
+    imgUrl: 'https://fashionstore.ru/upload/iblock/fec/cnd6ejer33iunb8916g8b7gml9gwi5vp.jpg',
     isNew: true,
     isGoodPrice: false,
   },
@@ -88,7 +113,7 @@ export const PRODUCT = [
     price: '$33.78',
     prevPrice: '60$',
     percent: '12%',
-    imgUrl: 'https://m.media-amazon.com/images/I/61TZmTNyZNL._AC_UL320_.jpg',
+    imgUrl: 'https://jz9czo0xs6.ru.scalesta-cdn.com/_8MFOJ0DRsOHHfqMEhdgG6guPQs=/filters:format(webp):fill(fff)/https%3A%2F%2Fcomplexbar.ru%2Fimages%2Fdetailed%2F228%2FD681787F-2420-11EE-BC0D-005056921CC4.jpg',
     isNew: true,
     isGoodPrice: true,
   },
