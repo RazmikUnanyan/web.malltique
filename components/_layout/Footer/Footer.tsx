@@ -30,7 +30,7 @@ export const Footer: FC<IFooterProps> = ({ ...props }) => (
           <ALink variant="secondary" label="Blog" href="#" />
         </ListItem>
         <ListItem>
-          <ALink variant="secondary" label="About Amazon" href="#" />
+          <ALink variant="secondary" label="About Malltique" href="#" />
         </ListItem>
       </List>
       <List spacing="xs" size="sm" center>
@@ -39,10 +39,10 @@ export const Footer: FC<IFooterProps> = ({ ...props }) => (
           <ALink variant="secondary" label="become a seller" href="#" />
         </ListItem>
         <ListItem>
-          <ALink variant="secondary" label="SellCard on Amazon Business" href="#" />
+          <ALink variant="secondary" label="SellCard on Malltique Business" href="#" />
         </ListItem>
         <ListItem>
-          <ALink variant="secondary" label="SellCard apps on Amazon" href="#" />
+          <ALink variant="secondary" label="SellCard apps on Malltique" href="#" />
         </ListItem>
       </List>
       <List spacing="xs" size="sm" center>
