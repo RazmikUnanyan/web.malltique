@@ -7,7 +7,7 @@ export default function HomePage() {
       <Banner showSponsored isAutoplay images={BANNER_IMG} height={250} />
       <Services />
       <Ad showSponsored banners={AD_IMAGES} />
-      <Grid withHorizontalScroll>
+      <Grid withHorizontalScroll title="Сategories">
         {SELL_IMG.map((sell) => (
           <SellCard key={sell.id} {...sell} />
         ))}
