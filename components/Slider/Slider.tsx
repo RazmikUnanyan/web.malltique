@@ -10,7 +10,7 @@ export const Slider:FC<{ images: string[] }> = ({ images }) => {
 
     return (
     <div className={styles.container}>
-      <Carousel align="start" dragFree slideGap="md" orientation="vertical" height={400} slideSize="10%" style={{ width: 100}}>
+      <Carousel align="start" dragFree slideGap="md" orientation="vertical" height={400} slideSize="10%" style={{ width: 100 }}>
             {images.map((img) => (
                 <CarouselSlide>
                 <Image
