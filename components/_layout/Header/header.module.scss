@@ -37,16 +37,24 @@
 
   @media (max-width: $ipad) {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 1rem;
-    width: 120%;
-    height: 30px;
+    gap: 0.2rem;
+    width: 110%;
     margin-left: -16px;
-    background-color: $cl-primary;
-    color: black;
+    padding:  0.5rem;
+    height: 35px;
+    background-color: $cl-brown_light;
+    color: $cl-brown;
   }
 }
+
+.linkAppWrapper {
+  background-color: $cl-primary;
+  border-radius: 0 0 $box-radius  $box-radius;
+  padding: 0.5rem;
+}
+
 
 
 
