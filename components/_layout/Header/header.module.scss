@@ -32,6 +32,20 @@
   }
 }
 
+.mobileLink {
+  display: none;
+
+  @media (max-width: $ipad) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 120%;
+    height: 50px;
+    margin-left: -20px;
+    background-color: $cl-fio;
+  }
+}
 
 
 
